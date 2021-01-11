@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.True_header{
+/*     width: 100%; */
+    width: 74.4em;
+/*     height: 80px; */
+    height: 05em;
+    background-color:  #3b3c55;
+    position: fixed;
+/*     margin-top: -40px; */
+    margin-top:-2em; 
+
+}
+
+.inner_header{
+/*     width: 1600px; */
+    width: 74.4em;
+/*     height: 100%; */
+    height: 5em;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+/*     height: 100%; */
+    height: 5em;
+    display: table;
+    float: left;
+}
+.logo_container h1{
+    color: white;
+/*     height: 100%; */
+height: 1em;
+    display: table-cell;
+    vertical-align: middle;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+   font-size: 2em;
+    font-weight: 200;
+}
+.logo_container h1 span{
+    font-weight:800;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background: #F6F6F6;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 3em;
+    
+}
+
+.header{
+/*     width: 100%; */
+    width: 74.4em;
+/*     height: 29px; */
+    height: 1.7em;
+    background:  #242539;
+    position: fixed;
+/*     top:0;
+    left:0; */
+/*     margin-top: 40px; */
+    margin-top: 2.5em;
+}
+
+
+/* styling links */
+
+ul{
+    float: right; 
+    list-style-type: none;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+/*     padding: 5px 20px; */
+padding: 0.5em 1em;
+    border: 0.12em solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #E63946;
+color: rgb(255, 255, 255);
+}
+
+ul li.active a{
+    background-color: #E63946;
+    color: rgb(255, 255, 255);
+}
+
+
+/*End of styling links*/
+
+.container{
+    width: 100%;
+/*     margin-top: 29px; */
+    margin-top: 1em;
+}
+
+.content{
+    /* padding: 90px 210px; */
+    padding: 5.625em  13.125em;
+    color: #3e4152;
+}
+ #image{
+/*     padding: 90px 20px; */
+    padding: 5.625em 1.25em;
+
+/*     margin-left: 290px; */
+    margin-left: 18.125em;
+    
+}
+.content h1{
+/*     padding-bottom: 10px; */
+    padding-bottom: 0.625em;
+    text-align: center;
+/*     margin-right: -160px; */
+    margin-right: -07em;
+}
+
+.content p{
+    font-size: 1em;
+    line-height: 1.375em;
+    text-align: justify;
+    margin-left: 7.1875em;
+}
+
+p q{
+    margin-left: 6.8em;
+    font-size: 1.5625em;
+}
+
+.content:nth-child(even){
+    background: #fff;
+}
+.footer{
+    
+    width: 74.4em;
+    height: 7.75em;
+    line-height: 3.75em;
+    background:  #242539;
+    position: relative;
+}
+
+.footer p{
+ font-weight: 700;
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 1.25em;
+ color: #fff;
+}
+
+/* Codes for sidebar */
+
+#sidebar{
+    position: fixed;
+    width: 14.88em;
+    height: 74.4em; 
+    background-color: #11111b;
+    margin-top: 2.5em;
+    
+}
+
+#sidebar li{
+    color: white;
+    font-size: 1.25em;
+    padding: 1.5em;
+    border-bottom: 0.05em solid gray;
+    text-align: center;
+}
+
+ .toggle-btn{
+    position: absolute;
+    left: 89.28em;
+    top: 0.9375em;
+}
+
+.toggle-btn span{
+    display: block;
+    background-color: black;
+    width: 1.875em;
+    height: 0.3125em;
+    margin:0.1875em;
+}
+
+/* #sidebar:active{
+ left: -1200px; 
+} */
+
+
+/* Styling logo */
+.logo img{
+    float: right;
+    width: 5.6em;
+    height: auto;
+}
+
+/* styling images */
+.figure{
+    margin-left: 0.3125em;
+
+}
+.figure img{
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgb(115, 112, 117);
+    border-radius: 0.625em 0.315em;
+}
+
+/* Editing form */
+
+.content#signUp{
+text-align: center;
+border: 1px solid rgb(12, 4, 32);
+width: 18.75em;
+margin: 1.875em 31.75em 1.875em;
+
+padding: 5em;
+border-radius: 1.4%;
+height: 12.5em;
+}
+
+.content form label{
+font-size: 1.2em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+letter-spacing: 0.5em;
+}
+
+.content form input,textarea,button{
+
+width: 12.5em;
+border: 0.0625em solid slateblue;
+border-radius: 0.384615385em;
+
+}
+
+/* About us */
+
+#clients{
+    margin-left: 6.538461538em;
+}
+
+
+/* Training */
+
+#table{
+    margin-left: 5.384615385em;
+    
+}
+#table td{
+    padding-left: 2.5em;
+}
+#table  tr  td p{
+    text-align: center;
+    border: 1px solid rgb(52, 1, 82);
+    border-radius: 0.1875em;
+    margin-left:0.625em;
+}
+
+/* Development Sector */
+.newImages{
+margin-left: 13.75em;
+width: 43.125em;
+}
+
+h2{
+    text-align: center;
+    margin-left: 10.625em;
+    text-decoration: underline rebeccapurple;
+}
+.gmail{
+    width: 2.5em;
+    margin-left: 12.5em;
+}
+#send{
+    text-align: center;
+    margin-top:5.625em;
+}
+
+/* Consultancy */
+.Images{
+    width: 56.25em;
+    scroll-behavior: smooth;
+    margin-left: 3.75em;
+}
+#send a:hover{
+    color: #000;
+}
+#copyright{
+    font-size: 0.5em;
+    color: rgb(106, 97, 131);
+}
+
+/* dropdown */
+.header a{
+    text-decoration: none;
+}
+.header nav {
+    font-family: monospace;
+}
+.header ul{
+    
+    list-style: none;
+    margin:0;
+    padding-left:0;
+}
+.header li {
+    color: #fff;
+    
+    float: left;
+    padding: 1 em;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.header li a{
+    
+    color: #fff;
+}
+.header li:hover{
+    padding: 1rem;
+    background: red;
+    cursor: pointer;
+}
+.header ul li ul {
+    background:  #242539;
+        visibility: hidden;
+        opacity:0;
+        min-width: 9.02rem;
+        position: absolute;
+        transition: all 0.5s ease;
+        margin-top:1rem;
+        left:0;
+        display: none;
+}
+ul li:hover >ul,
+.header ul li ul:hover{
+    
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+.header ul li ul li{
+    padding: 1rem;
+    clear: both;
+    width: 78%;
+}
+.header ul li ul li a{
+    text-decoration: none;
+    background: none;
+    padding: 0;
+}
